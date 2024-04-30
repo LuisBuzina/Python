@@ -1,6 +1,6 @@
-valor1 = input('Digite o primeiro valor: ')
-valor2 = input('Digite o segundo valor: ')
+valor1 = int (input('Digite o primeiro valor: '))
+valor2 = int (input('Digite o segundo valor: '))
 
-resultado = (int(valor1) + int(valor2))
+resultado = valor1 + valor2
 
 print('O resultado é: ', resultado)
